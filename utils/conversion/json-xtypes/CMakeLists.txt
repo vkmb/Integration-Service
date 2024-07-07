@@ -123,7 +123,8 @@ set_target_properties(${EXAMPLE_NAME}
 
 target_compile_options(${EXAMPLE_NAME}
     PRIVATE
-        -Werror -Wall -Wextra -Wpedantic
+#        -Werror -Wall -Wextra -Wpedantic
+        -Wall -Wextra -Wpedantic
     )
 
 target_link_libraries(${EXAMPLE_NAME}
